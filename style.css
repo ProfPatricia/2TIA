@@ -1,11 +1,38 @@
-body {
-	background: #CCCCCC
+*{
+    margin: 0 0 0 0;
 }
 
-p {
-	text-align: center;
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:rgb(240, 214, 253);
 }
 
-em strong {
-	color: #FF0000;
+header{
+    background-color: #975fa6;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1{
+    font-size: 45px;
+}
+
+nav li{
+    font-size: 25px;
+    display: inline;
+    margin: 0 5px 0 25px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.conteudo-principal{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
 }
